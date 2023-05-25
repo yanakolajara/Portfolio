@@ -76,3 +76,7 @@ main.addEventListener('click', (event) => {
     }
   }
 });
+
+const mainPage = () => {
+  window.location.href = ".../main.html"
+}

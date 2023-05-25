@@ -149,3 +149,7 @@ main .guitar:active .moreInfo{
         width: 170px;
     }
 }
+
+form {
+    margin-top: 30px;
+}

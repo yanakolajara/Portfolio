@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styleSheets/introduction.css">
+    <link rel="stylesheet" href="./styleSheets/aboutme.css">
+    <link rel="stylesheet" href="./styleSheets/projects.css">
     <script src="app.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="socialMedia">
-            <div class="smLink" id="linkedin">
+            <div onclick="linkedin()" class="smLink" id="linkedin">
                 <img class="icon" src="./data/linkedin.png" alt="Github image">
                 <p>&nbsp;LinkedIn</p>
             </div>
             <p>|</p>
-            <div class="smLink" id="github">
+            <div onclick="github()"class="smLink" id="github">
                 <img class="icon" src="./data/github.png" alt="Github image">
                 <p>&nbsp;GitHub</p>
             </div>
@@ -29,10 +31,31 @@
         <div id="Ynkpicture">
             <img id="myPicture" src="./data/ynk-portrait.jpeg" alt="Yanako's portrait picture">
         </div>
-        <div id="greeting">
-            <p>
-                Hey there!<br><br>My name is Yanako Lajara.
-            </p>
+        <div>
+            <div id="gspace"></div>
+            <p id="greeting">Hey there!</p>
+            <p id="name">My name is Yanako Lajara.</p>
+        </div>
+    </div>
+    <hr class="line">
+    <div class="aboutMe">
+        <div class="text">
+            <p>I am a full-stack developer at Pursuit, interested in creating new technologies to make everyone's life more comfortable. Pursuit is an intensive 12-month software engineering fellowship with a 9% acceptance rate.</p>
+            <p>I am skilled in Java, Python, JavaScript, HTML, CSS, Node, Git, Algorithms, code reviews, and pair programming.</p>
+        </div>
+        <div class="image">
+            <img id="pursuitImg" src="./data/pursuit.png" alt="pursuit logo">
+        </div>
+    </div>
+    <hr>
+    <div class="backgroundInfo">
+        <p class="text">I started my developer journey in 2016 by learning basic HTML, CSS, JavaScript, and Arduino at a summer club. Since that, my passion for technology and programming has been growing exponentially.</p>
+        <p class="text">A fun fact about me that makes me an enthusiastic developer is that even if coding is part of my professional career, whenever I have free time, I still use it to code for fun instead of taking a break.</p>
+    </div>
+    <hr>
+    <div class="projects">
+        <div class="text" id="projectsTitle">
+            <p>My projects</p>
         </div>
     </div>
 </body>

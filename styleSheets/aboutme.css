@@ -1,0 +1,21 @@
+.aboutMe {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: rgb(244, 239, 250);
+    padding-left: 45px;
+    padding-top: 50px;
+}
+.image {
+    padding-left: 140px;
+    padding-top: 50px;
+}
+#pursuitImg{
+    width: 400px;
+}

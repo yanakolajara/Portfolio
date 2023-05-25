@@ -29,6 +29,7 @@ header {
 .headerInfo:hover,
 .smLink:hover{
     background-color: rgb(102, 74, 137);
+    cursor: pointer;
 }
 header .headerInfo {
     display: flex;
@@ -60,14 +61,16 @@ header .headerInfo {
     height: 500px;
     border-radius: 50%;
 }
-#greeting {
+
+#gspace{
+    height: 130px;
+}
+#greeting,
+#name {
     display: flex;
-    justify-content: center;
-    padding-top: 130px;
-    font-size: 3.5em;
+    height: 56px;
+    font-size: 4em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     color: rgb(244, 239, 250);
-    overflow: hidden;
-    border-right: .15em;
 }

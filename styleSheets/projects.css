@@ -14,13 +14,15 @@
 }
 
 .project {
-    display: inline-block;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
     background-color: rgb(83, 43, 136);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 30px;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: auto;
 }
 .project:hover {
     transform: scale(1.02);
@@ -29,17 +31,25 @@
 }
 
 .projectImg {
-    margin-left: 24px;
-    margin-top: 30px;
-    width: 450px;
-    height: 350px;
+    margin-top: 100px;
+    margin: 10px;
+    max-width: 90%;
+    height: 70%;
     border-radius: 20px;
 }
 
 #projectName {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    padding-top: 1px;
+    margin: 0px;
+    padding: 0px;
     text-shadow: 3px 3px black;
+    height: auto;
+    margin-top: 0px;
+}
+
+@media (max-width: 992px){
+    p#projectName{
+        font-size: 1.5em;
+    }
 }

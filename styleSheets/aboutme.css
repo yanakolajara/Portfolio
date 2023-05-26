@@ -19,3 +19,15 @@
 #pursuitImg{
     width: 400px;
 }
+
+@media (max-width: 992px){
+
+    div.aboutMe{
+        display: block;
+    }
+    div#divPursuitImg{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}

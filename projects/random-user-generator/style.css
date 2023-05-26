@@ -72,3 +72,22 @@ footer {
     white-space: nowrap;
 }
 
+@media (max-width: 992px){
+    body{grid-template-rows: repeat(2, 1fr);}
+    div.about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        grid-row: 1/2;
+    }
+    img.image{
+        width: 40%;
+    }
+    footer{
+        justify-content:end;
+        margin-top: 500px;
+        grid-row: 2/3;
+    }
+    hr{
+        display: none;
+    }
+}
